@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #3A4877;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 25%;
+  background-color: #3A4877;
+  color: white;
+  padding: 14px 30px;
+  margin: 2px 0;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+input[type=submit]:hover {
+  background-color: #7e7e7e;
+}
+
+label {
+  color: #3A4877;
+}
+
+.center {
+    text-align: left;
+}
+
+.left {
+    text-align: left;
+}
+
+.button {
+    text-align: center;
+}
+
+div {
+    align-items: center;
+    border-radius: 12px;
+    background-color: #eeeeff;
+    padding: 20px;
+}

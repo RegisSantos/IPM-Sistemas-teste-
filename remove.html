@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>IPM Sistemas - Remover</title>
+		<link rel="stylesheet" href="contacts.css">
+
+	</head>
+
+	<body bgcolor="##EEEEFF">
+
+        <div>
+            <h1>Remover Contatos</h1>
+
+			<div>
+
+				<table class="center" style="background-color:#ffffff">
+					<tr>
+					  <th>Nome</th>
+					  <th>Email</th>
+					  <th>CPF</th>
+					  <th>Telefone</th>
+					  <th>Selecionar</th>
+					</tr>
+					<tr>
+					  <td>André Sobrenome</td>
+					  <td>andré@ipmsistemas.com.br</td>
+					  <td>111.111.111-11</td>
+					  <td>(48)11111-1111</td>
+					  <td><input name="muda" type="checkbox" onchange="mudar(this);"></td>
+					</tr>
+					<tr>
+					  <td>Bianca Sobrenome</td>
+					  <td>bianca@ipmsistemas.com.br</td>
+					  <td>222.222.222-22</td>
+					  <td>(48)22222-2222</td>
+					  <td><input name="muda" type="checkbox" onchange="mudar(this);"></td>
+					</tr>
+					<tr>
+						<td>Carlos Sobrenome</td>
+						<td>carlos@ipmsistemas.com.br</td>
+						<td>333.333.333-33</td>
+						<td>(48)33333-3333</td>
+						<td><input name="muda" type="checkbox" onchange="mudar(this);"></td>
+					  </tr>
+					  <tr>
+						<td>Daniela Sobrenome</td>
+						<td>daniela@ipmsistemas.com.br</td>
+						<td>444.444.444-44</td>
+						<td>(48)44444-4444</td>
+						<td><input name="muda" type="checkbox" onchange="mudar(this);"></td>
+					  </tr>
+					  <tr>
+						<td>Eduardo Sobrenome</td>
+						<td>eduardo@ipmsistemas.com.br</td>
+						<td>555.555.555-55</td>
+						<td>(48)55555-5555</td>
+						<td><input name="muda" type="checkbox" onchange="mudar(this);"></td>
+					  </tr>
+					  <tr>
+						<td>Fabio Sobrenome</td>
+						<td>fabio@ipmsistemas.com.br</td>
+						<td>666.666.666-66</td>
+						<td>(48)66666-6666</td>
+						<td><input name="muda" type="checkbox" onchange="mudar(this);"></td>
+					  </tr>
+					  <tr>
+						<td>Guilherme Sobrenome</td>
+						<td>guilherme@ipmsistemas.com.br</td>
+						<td>777.777.777-77</td>
+						<td>(48)77777-7777</td>
+						<td><input name="muda" type="checkbox" onchange="mudar(this);"></td>
+					  </tr>
+
+					  <tr>
+						<td>Hugo Sobrenome</td>
+						<td>hugo@ipmsistemas.com.br</td>
+						<td>888.888.888-88</td>
+						<td>(48)8888-8888</td>
+						<td><input name="muda" type="checkbox" onchange="mudar(this);"></td>
+					  </tr>
+
+					  <tr>
+						<td>Iris Sobrenome</td>
+						<td>iris@ipmsistemas.com.br</td>
+						<td>999.999.999-99</td>
+						<td>(48)99999-9999</td>
+						<td><input name="muda" type="checkbox" onchange="mudar(this);"></td>
+					  </tr>
+
+					  <tr>
+						<td>Joao Sobrenome</td>
+						<td>joao@ipmsistemas.com.br</td>
+						<td>123.456.789-10</td>
+						<td>(48)91010-1010</td>
+						<td><input name="muda" type="checkbox" onchange="mudar(this);"></td>
+					  </tr>
+				  </table>
+			</div>
+
+			<script>
+				function mudar(obj){
+					var selecionado = obj.checked;
+					if (selecionado) {
+						alert('Excluir este cadastro?');
+						alert('Cadastro excluído!');
+					}
+				}
+			</script>
+			
+			<div class="box">
+				<div class="dropdown">
+					<button class="dropbtn">Escolha uma opção:</button>
+						<div class="dropdown-content">
+							<a href="index.html">Página Inicial</a>
+							<a href="add.html">Adicionar Contatos</a>
+							<a href="remove.html">Remover Contatos</a>
+						</div>
+				</div>
+			</div>
+        </div>
+		
+	</body>
+</html>
